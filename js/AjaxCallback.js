@@ -32,11 +32,11 @@ console.log("Get User Data at: " +showTime() + "data:"+data)
 makeAJAXCall ("GET", getURL, getUserDetails);
 console.log(" Made GET AJAX Call to server at: "+showTime());
 
-/*const deleteURL="http://localhost:3000/employees/4";
+const deleteURL="http://localhost:3000/employees/4";
 function userDeleted(data){
 console.log(" User Deleted  "+data)
 }
-makeAJAXCall ("DELETE", deleteURL, userDeleted, false);*/
+makeAJAXCall ("DELETE", deleteURL, userDeleted, false);
 
 const postURL="http://localhost:3000/employees";
 const empData={"name": "Harry","salary": "5000"};
